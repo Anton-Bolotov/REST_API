@@ -3,11 +3,11 @@
 ### Для успешного запуска приложения необходимо проделать следующие действия:
 
 * Клонировать репозиторий с проектом
-* Установить зависимости - pip install -r requirements.txt
-* Создать миграции - python manage.py makemigrations
-* Применить миграции - python manage.py migrate
-* Создать суперпользователя для работы с административной частью Django - python manage.py createsuperuser
-* Запустить сервер - python manage.py runserver
+* Установить зависимости - ```python pip install -r requirements.txt ```
+* Создать миграции - ```python python manage.py makemigrations ```
+* Применить миграции - ```python python manage.py migrate ```
+* Создать суперпользователя для работы с административной частью Django - ```python python manage.py createsuperuser ```
+* Запустить сервер - ```python python manage.py runserver ```
 
 
 ### /api/event/
@@ -25,7 +25,7 @@
         }
 }
 ```
-## /api/event/{Название эвента}/
+### /api/event/{Название эвента}/
 -- отправить GET запрос для получения информации об эвенте;
 -- отправить POST запрос с телом выше, для создания эвента;
 -- отправить PUT запрос для обновления нужных полей эвента;
